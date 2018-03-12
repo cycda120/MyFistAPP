@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF90298420569C2B0014B67D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90298320569C2B0014B67D /* AppDelegate.swift */; };
+		AF90298620569C2B0014B67D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90298520569C2B0014B67D /* ViewController.swift */; };
+		AF90298920569C2B0014B67D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF90298720569C2B0014B67D /* Main.storyboard */; };
+		AF90298B20569C2B0014B67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF90298A20569C2B0014B67D /* Assets.xcassets */; };
+		AF90298E20569C2B0014B67D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF90298C20569C2B0014B67D /* LaunchScreen.storyboard */; };
+		AF90299920569C2B0014B67D /* MyFistAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90299820569C2B0014B67D /* MyFistAPPTests.swift */; };
+		AF9029A420569C2B0014B67D /* MyFistAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9029A320569C2B0014B67D /* MyFistAPPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF90299520569C2B0014B67D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF90297820569C2B0014B67D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF90297F20569C2B0014B67D;
+			remoteInfo = MyFistAPP;
+		};
+		AF9029A020569C2B0014B67D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF90297820569C2B0014B67D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF90297F20569C2B0014B67D;
+			remoteInfo = MyFistAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF90298020569C2B0014B67D /* MyFistAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFistAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF90298320569C2B0014B67D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF90298520569C2B0014B67D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF90298820569C2B0014B67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF90298A20569C2B0014B67D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF90298D20569C2B0014B67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF90298F20569C2B0014B67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF90299420569C2B0014B67D /* MyFistAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFistAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF90299820569C2B0014B67D /* MyFistAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFistAPPTests.swift; sourceTree = "<group>"; };
+		AF90299A20569C2B0014B67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF90299F20569C2B0014B67D /* MyFistAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFistAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9029A320569C2B0014B67D /* MyFistAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFistAPPUITests.swift; sourceTree = "<group>"; };
+		AF9029A520569C2B0014B67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF90297D20569C2B0014B67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF90299120569C2B0014B67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF90299C20569C2B0014B67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF90297720569C2B0014B67D = {
+			isa = PBXGroup;
+			children = (
+				AF90298220569C2B0014B67D /* MyFistAPP */,
+				AF90299720569C2B0014B67D /* MyFistAPPTests */,
+				AF9029A220569C2B0014B67D /* MyFistAPPUITests */,
+				AF90298120569C2B0014B67D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF90298120569C2B0014B67D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF90298020569C2B0014B67D /* MyFistAPP.app */,
+				AF90299420569C2B0014B67D /* MyFistAPPTests.xctest */,
+				AF90299F20569C2B0014B67D /* MyFistAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF90298220569C2B0014B67D /* MyFistAPP */ = {
+			isa = PBXGroup;
+			children = (
+				AF90298320569C2B0014B67D /* AppDelegate.swift */,
+				AF90298520569C2B0014B67D /* ViewController.swift */,
+				AF90298720569C2B0014B67D /* Main.storyboard */,
+				AF90298A20569C2B0014B67D /* Assets.xcassets */,
+				AF90298C20569C2B0014B67D /* LaunchScreen.storyboard */,
+				AF90298F20569C2B0014B67D /* Info.plist */,
+			);
+			path = MyFistAPP;
+			sourceTree = "<group>";
+		};
+		AF90299720569C2B0014B67D /* MyFistAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF90299820569C2B0014B67D /* MyFistAPPTests.swift */,
+				AF90299A20569C2B0014B67D /* Info.plist */,
+			);
+			path = MyFistAPPTests;
+			sourceTree = "<group>";
+		};
+		AF9029A220569C2B0014B67D /* MyFistAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF9029A320569C2B0014B67D /* MyFistAPPUITests.swift */,
+				AF9029A520569C2B0014B67D /* Info.plist */,
+			);
+			path = MyFistAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF90297F20569C2B0014B67D /* MyFistAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9029A820569C2B0014B67D /* Build configuration list for PBXNativeTarget "MyFistAPP" */;
+			buildPhases = (
+				AF90297C20569C2B0014B67D /* Sources */,
+				AF90297D20569C2B0014B67D /* Frameworks */,
+				AF90297E20569C2B0014B67D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFistAPP;
+			productName = MyFistAPP;
+			productReference = AF90298020569C2B0014B67D /* MyFistAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF90299320569C2B0014B67D /* MyFistAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9029AB20569C2B0014B67D /* Build configuration list for PBXNativeTarget "MyFistAPPTests" */;
+			buildPhases = (
+				AF90299020569C2B0014B67D /* Sources */,
+				AF90299120569C2B0014B67D /* Frameworks */,
+				AF90299220569C2B0014B67D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF90299620569C2B0014B67D /* PBXTargetDependency */,
+			);
+			name = MyFistAPPTests;
+			productName = MyFistAPPTests;
+			productReference = AF90299420569C2B0014B67D /* MyFistAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF90299E20569C2B0014B67D /* MyFistAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9029AE20569C2B0014B67D /* Build configuration list for PBXNativeTarget "MyFistAPPUITests" */;
+			buildPhases = (
+				AF90299B20569C2B0014B67D /* Sources */,
+				AF90299C20569C2B0014B67D /* Frameworks */,
+				AF90299D20569C2B0014B67D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF9029A120569C2B0014B67D /* PBXTargetDependency */,
+			);
+			name = MyFistAPPUITests;
+			productName = MyFistAPPUITests;
+			productReference = AF90299F20569C2B0014B67D /* MyFistAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF90297820569C2B0014B67D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "陳小毛";
+				TargetAttributes = {
+					AF90297F20569C2B0014B67D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AF90299320569C2B0014B67D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF90297F20569C2B0014B67D;
+					};
+					AF90299E20569C2B0014B67D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF90297F20569C2B0014B67D;
+					};
+				};
+			};
+			buildConfigurationList = AF90297B20569C2B0014B67D /* Build configuration list for PBXProject "MyFistAPP" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF90297720569C2B0014B67D;
+			productRefGroup = AF90298120569C2B0014B67D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF90297F20569C2B0014B67D /* MyFistAPP */,
+				AF90299320569C2B0014B67D /* MyFistAPPTests */,
+				AF90299E20569C2B0014B67D /* MyFistAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF90297E20569C2B0014B67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF90298E20569C2B0014B67D /* LaunchScreen.storyboard in Resources */,
+				AF90298B20569C2B0014B67D /* Assets.xcassets in Resources */,
+				AF90298920569C2B0014B67D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF90299220569C2B0014B67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF90299D20569C2B0014B67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF90297C20569C2B0014B67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF90298620569C2B0014B67D /* ViewController.swift in Sources */,
+				AF90298420569C2B0014B67D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF90299020569C2B0014B67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF90299920569C2B0014B67D /* MyFistAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF90299B20569C2B0014B67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9029A420569C2B0014B67D /* MyFistAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF90299620569C2B0014B67D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF90297F20569C2B0014B67D /* MyFistAPP */;
+			targetProxy = AF90299520569C2B0014B67D /* PBXContainerItemProxy */;
+		};
+		AF9029A120569C2B0014B67D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF90297F20569C2B0014B67D /* MyFistAPP */;
+			targetProxy = AF9029A020569C2B0014B67D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF90298720569C2B0014B67D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF90298820569C2B0014B67D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF90298C20569C2B0014B67D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF90298D20569C2B0014B67D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF9029A620569C2B0014B67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF9029A720569C2B0014B67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF9029A920569C2B0014B67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFistAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.MyFistAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF9029AA20569C2B0014B67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFistAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.MyFistAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF9029AC20569C2B0014B67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFistAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.MyFistAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFistAPP.app/MyFistAPP";
+			};
+			name = Debug;
+		};
+		AF9029AD20569C2B0014B67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFistAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.MyFistAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFistAPP.app/MyFistAPP";
+			};
+			name = Release;
+		};
+		AF9029AF20569C2B0014B67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFistAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.MyFistAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFistAPP;
+			};
+			name = Debug;
+		};
+		AF9029B020569C2B0014B67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFistAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.MyFistAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFistAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF90297B20569C2B0014B67D /* Build configuration list for PBXProject "MyFistAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9029A620569C2B0014B67D /* Debug */,
+				AF9029A720569C2B0014B67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9029A820569C2B0014B67D /* Build configuration list for PBXNativeTarget "MyFistAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9029A920569C2B0014B67D /* Debug */,
+				AF9029AA20569C2B0014B67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9029AB20569C2B0014B67D /* Build configuration list for PBXNativeTarget "MyFistAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9029AC20569C2B0014B67D /* Debug */,
+				AF9029AD20569C2B0014B67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9029AE20569C2B0014B67D /* Build configuration list for PBXNativeTarget "MyFistAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9029AF20569C2B0014B67D /* Debug */,
+				AF9029B020569C2B0014B67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF90297820569C2B0014B67D /* Project object */;
+}
